@@ -1,0 +1,40 @@
+Config(
+  ignored: [], // A list of patterns to be ignored in all directories
+  directories: [
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Cesar", 
+      recurse: true, 
+      ignored: [], 
+    ),
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Bilder", 
+      recurse: true,
+      ignored: [], 
+    ),
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Dokumente", 
+      recurse: true, 
+      ignored: [], 
+    ),
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Downloads", 
+      recurse: true,
+      ignored: [],
+    ),
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Musik", 
+      recurse: true, 
+      ignored: [], 
+    ),
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Videos", 
+      recurse: true, 
+      ignored: [],
+    ),
+    WatchDir(
+      path: "/home/nachtaktiverhalbaffe/Zotero", 
+      recurse: true, 
+      ignored: [],
+    ),
+  ],
+)
