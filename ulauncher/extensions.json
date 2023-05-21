@@ -1,0 +1,86 @@
+{
+    "com.github.lighttigerxiv.ulauncher-terminal-runner-extension": {
+        "id": "com.github.lighttigerxiv.ulauncher-terminal-runner-extension",
+        "url": "https://github.com/lighttigerXIV/ulauncher-terminal-runner-extension/",
+        "updated_at": "2022-07-17T23:15:49.648451",
+        "last_commit": "8cbcf85e8b3a48a45d2d181488af6e5d89bff1b0",
+        "last_commit_time": "2022-05-22T12:33:25"
+    },
+    "com.github.rapha149.ulauncher-deepl": {
+        "id": "com.github.rapha149.ulauncher-deepl",
+        "url": "https://github.com/Rapha149/ulauncher-deepl/",
+        "updated_at": "2022-07-17T23:17:23.923185",
+        "last_commit": "31e3e85e464a95760ffda32980adcfd2b4e76a84",
+        "last_commit_time": "2022-06-10T11:47:00"
+    },
+    "com.github.ulauncher.ulauncher-emoji": {
+        "id": "com.github.ulauncher.ulauncher-emoji",
+        "url": "https://github.com/Ulauncher/ulauncher-emoji",
+        "updated_at": "2022-07-18T00:11:06.981120",
+        "last_commit": "4c6af50d1c9a24d5aad2c597634ff0c634972a5c",
+        "last_commit_time": "2021-08-08T19:19:59"
+    },
+    "com.github.isacikgoz.ukill": {
+        "id": "com.github.isacikgoz.ukill",
+        "url": "https://github.com/isacikgoz/ukill",
+        "updated_at": "2022-08-27T15:30:50.016879",
+        "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
+        "last_commit_time": "2019-05-28T18:30:00"
+    },
+    "com.github.mikebarkmin.ulauncher-obsidian": {
+        "id": "com.github.mikebarkmin.ulauncher-obsidian",
+        "url": "https://github.com/mikebarkmin/ulauncher-obsidian",
+        "updated_at": "2022-08-27T15:31:28.480166",
+        "last_commit": "1da31425580691328745826376434b3cff69ffcf",
+        "last_commit_time": "2022-06-03T10:38:34"
+    },
+    "com.github.qcasey.ulauncher-homeassistant": {
+        "id": "com.github.qcasey.ulauncher-homeassistant",
+        "url": "https://github.com/qcasey/ulauncher-homeassistant",
+        "updated_at": "2022-08-27T15:48:44.801202",
+        "last_commit": "8a187aa6bdff8700cdbfbc0371b98dda33b253d5",
+        "last_commit_time": "2021-05-24T23:54:58"
+    },
+    "com.github.adamtillou.ulauncher-aurman-plugin": {
+        "id": "com.github.adamtillou.ulauncher-aurman-plugin",
+        "url": "https://github.com/AdamTillou/ulauncher-aurman-plugin",
+        "updated_at": "2022-08-27T15:48:56.457648",
+        "last_commit": "af11b33cb6ed6ec055859482bdde0353013d1378",
+        "last_commit_time": "2021-07-16T21:51:05"
+    },
+    "com.github.tchar.ulauncher-albert-calculate-anything": {
+        "id": "com.github.tchar.ulauncher-albert-calculate-anything",
+        "url": "https://github.com/tchar/ulauncher-albert-calculate-anything",
+        "updated_at": "2022-08-27T15:52:33.487001",
+        "last_commit": "ee0903174c8b87cd1f7c3b6c1acef10702547507",
+        "last_commit_time": "2021-08-12T06:39:56"
+    },
+    "com.github.briceio.ulauncher-baloo": {
+        "id": "com.github.briceio.ulauncher-baloo",
+        "url": "https://github.com/briceio/ulauncher-baloo",
+        "updated_at": "2022-08-27T15:55:33.285310",
+        "last_commit": "b4543797666f6a60ff52ab35ad37bec0882dcf80",
+        "last_commit_time": "2020-10-23T11:36:24"
+    },
+    "com.github.hillaryychan.ulauncher-fzf": {
+        "id": "com.github.hillaryychan.ulauncher-fzf",
+        "url": "https://github.com/hillaryychan/ulauncher-fzf",
+        "updated_at": "2022-08-29T23:38:25.576382",
+        "last_commit": "742e270c5efe2a12060ceaabf25231cbd399fec1",
+        "last_commit_time": "2022-08-28T09:19:54"
+    },
+    "com.github.brpaz.ulauncher-file-search": {
+        "id": "com.github.brpaz.ulauncher-file-search",
+        "url": "https://github.com/brpaz/ulauncher-file-search",
+        "updated_at": "2022-08-29T23:41:26.642151",
+        "last_commit": "0ea61c2049b27f1ddfa81d1844876f21dd9d6e7b",
+        "last_commit_time": "2020-07-03T13:30:16"
+    },
+    "com.github.nastuzzisamy.ulauncher-translate": {
+        "id": "com.github.nastuzzisamy.ulauncher-translate",
+        "url": "https://github.com/NastuzziSamy/ulauncher-translate",
+        "updated_at": "2022-08-29T23:42:46.690617",
+        "last_commit": "f16b6eed05923e604bacafefdc40b7b7290e21da",
+        "last_commit_time": "2021-03-27T11:43:48"
+    }
+}

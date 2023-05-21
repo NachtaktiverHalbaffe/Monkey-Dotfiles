@@ -1,0 +1,120 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 0,
+    "modules-center": ["clock"],//,"hyprland/window",],
+    "modules-left": ["mpris","wlr/workspaces", "wlr/mode"],
+    "modules-right": ["tray", "cpu", "memory", "battery","backlight","pulseaudio", "custom/network_traffic","network","bluetooth", "custom/power"], 
+    "hyprland/window": {
+        "format": "{}"
+    },
+    "wlr/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        //"format": "{icon}",
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": [],
+            "10": []
+        }
+    },
+    "tray": {
+        "icon-size": 13,
+        "spacing": 10
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon} {percent: >3}%",
+        "format-icons": ["\udb80\udce0", "\udb80\udce0"],
+        "on-scroll-down": "brightnessctl -c backlight set 1%-",
+        "on-scroll-up": "brightnessctl -c backlight set +1%"
+    },
+    "bluetooth": {
+        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+        "format": " {status}",
+        "format-disabled": "", // an empty format will hide the module
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click":"blueman-manager"
+    },
+    "clock": {
+        "format": "\udb82\udd54 {:%R  %d.%m.%Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{icon} {volume: >3}%",
+        "format-bluetooth": "{icon} {volume: >3}%",
+        "format-muted":" muted",
+        "format-icons": {
+            "default": ["\udb81\udd7e", "\udb81\udd7e", "\udb81\udd7e"]
+        },
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+        "format": "\uf4bc {usage: >3}%",
+        "on-click": "wezterm -e btop"
+    },
+    "memory": {
+        "format": "\udb81\ude1a {: >3}%",
+        "on-click": "wezterm -e htop"
+    },
+    "custom/power": {
+      	"format":"⏻",
+       	"on-click": "wlogout",
+      	"tooltip": false
+   },
+     "custom/network_traffic": {
+             "exec": "~/.config/waybar/scripts/network_traffic.sh",
+             "return-type": "json",
+             "format-ethernet": "{icon} {ifname} ⇣{bandwidthDownBytes:>4} ⇡{bandwidthUpBytes:>4}"    // optional
+    },
+     "network": {
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format": "⚠ Disabled",
+        "format-wifi": " {essid}",
+        "format-ethernet": " {ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": "⚠ Disconnected",
+        // "on-click": "nm-applet"
+        "on-click":"iwgtk"
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },       
+        "format": "{icon} {capacity: >3}%",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+        //"format-icons": ["", "", "", "", "", "", "", "", "", ""]
+    },
+    "mpris": {
+	"format": "{player_icon} {title}  {album}",
+    "format-paused":"{player_icon} {title}  {album}",
+	"player-icons": {
+		"default": "\udb80\udf86",
+        "spotifyd":"\udb81\udcc7",
+        "spotify":"\udb81\udcc7",
+        "brave":"\uf488",
+        "brave-beta":"\uf488"
+	}
+	// "ignored-players": ["firefox"]
+}
+
+}
