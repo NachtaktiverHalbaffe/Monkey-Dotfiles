@@ -1,0 +1,15 @@
+[Plugins]
+org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
+
+[activities]
+7d19203f-7619-48de-a938-a9b0cbef7bc1=Mails
+958c2e9e-37f8-4e5e-849c-bb9d2438b841=Messaging
+f4bac82b-b1d0-4024-a397-d93a912d6dca=Standard
+
+[activities-icons]
+7d19203f-7619-48de-a938-a9b0cbef7bc1=deepin-movie
+958c2e9e-37f8-4e5e-849c-bb9d2438b841=signal-desktop
+f4bac82b-b1d0-4024-a397-d93a912d6dca=aptdaemon-working
+
+[main]
+currentActivity=f4bac82b-b1d0-4024-a397-d93a912d6dca
