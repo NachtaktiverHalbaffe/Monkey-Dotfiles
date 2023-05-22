@@ -8,6 +8,7 @@
 !disable_intel_turbo.sh
 !.gitignore
 !kidex.ron
+!Readme.md
 
 #  App configurations
 !alacritty/
