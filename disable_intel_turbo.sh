@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo
+echo 1 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo

@@ -67,7 +67,9 @@
     },
     "cpu": {
         "format": "\uf4bc {usage: >3}%",
-        "on-click": "wezterm -e btop"
+        "on-click": "cpupower-gui",
+        "on-scroll-up":"echo 1 | pkexec tee /sys/devices/system/cpu/intel_pstate/no_turbo",
+                "on-scroll-down":"echo 0 | pkexec tee /sys/devices/system/cpu/intel_pstate/no_turbo"
     },
     "memory": {
         "format": "\udb81\ude1a {: >3}%",
