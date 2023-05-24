@@ -106,14 +106,15 @@
         //"format-icons": ["", "", "", "", "", "", "", "", "", ""]
     },
     "mpris": {
-	"format": "{player_icon} {title}  {album}",
-    "format-paused":"{player_icon} {title}  {album}",
+	"format": "{player_icon} {title} - {album}",
+    "format-paused":"{player_icon} {title} - {album}",
 	"player-icons": {
 		"default": "\udb80\udf86",
         "spotifyd":"\udb81\udcc7",
         "spotify":"\udb81\udcc7",
         "brave":"\uf488",
-        "brave-beta":"\uf488"
+        "brave-beta":"\uf488",
+        "plasma-browser-integration": "\uf488"
 	}
 	// "ignored-players": ["firefox"]
 }
