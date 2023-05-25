@@ -117,5 +117,5 @@ return {
   default_cursor_style = 'BlinkingBar',
   cursor_blink_rate = 500,
   animation_fps = 60,
-  enable_wayland= true,
+  enable_wayland = true,
 }
