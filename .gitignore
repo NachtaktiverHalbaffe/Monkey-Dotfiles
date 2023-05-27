@@ -9,6 +9,7 @@
 !.gitignore
 !kidex.ron
 !Readme.md
+!mimeapps.list
 
 #  App configurations
 !alacritty/
