@@ -7,6 +7,9 @@ Seen=true
 [Applications][brave-browser]
 Seen=true
 
+[Applications][brave-browser-beta]
+Seen=true
+
 [Applications][com.cisco.anyconnect.gui]
 Seen=true
 
