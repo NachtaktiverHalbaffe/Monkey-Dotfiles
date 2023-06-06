@@ -238,3 +238,4 @@ alias nvidia-settings='nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settin
 alias xbindkeys=xbindkeys -f "$XDG_CONFIG_HOME"/xbindkeys/config
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"   
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+export PATH=/home/nachtaktiverhalbaffe/.local/bin:/home/nachtaktiverhalbaffe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/home/nachtaktiverhalbaffe/dev/flutter/bin

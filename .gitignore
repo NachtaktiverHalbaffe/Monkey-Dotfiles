@@ -42,7 +42,7 @@
 !swaylock/
 !waybar/
 !qt5ct/
-!eww/
+# !eww/
 
 # -------- KDE ----------
 # Global Theming
