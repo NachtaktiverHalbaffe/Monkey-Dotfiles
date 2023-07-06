@@ -1044,7 +1044,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][233][Applets][249][Configuration]
-PreloadWeight=94
+PreloadWeight=100
 
 [Containments][233][Applets][250]
 immutability=1
@@ -1907,7 +1907,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][347][Applets][366][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][347][ConfigDialog]
 DialogHeight=510
@@ -2022,8 +2022,8 @@ immutability=1
 lastScreen=1
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=0
-popupWidth=0
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][378][Applets][379]
