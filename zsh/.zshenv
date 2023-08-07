@@ -19,6 +19,8 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java    
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitr
 export IPYTHONDIR="${XDG_CONFIG_HOME}"/ipython
+export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
+
 # Data
 export ANDROID_HOME="$XDG_DATA_HOME"/android
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
