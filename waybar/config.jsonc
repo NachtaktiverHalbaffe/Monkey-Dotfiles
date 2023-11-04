@@ -7,16 +7,16 @@
     "gtk-layer-shell": true,
     "height": 0,
     "modules-center": ["clock"],//,"hyprland/window",],
-    "modules-left": ["custom/launcher","wlr/workspaces"],
+    "modules-left": ["custom/launcher","hyprland/workspaces"],
     "modules-right": ["tray", "cpu", "memory", "battery","backlight","pulseaudio", "custom/network_traffic","network","bluetooth", "custom/power"], 
     "hyprland/window": {
         "format": "{}"
     },
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
-        //"format": "{icon}",
+        // "format": "{icon}",
         "persistent_workspaces": {
             "1": [],
             "2": [],

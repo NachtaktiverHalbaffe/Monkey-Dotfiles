@@ -7,12 +7,12 @@
     "gtk-layer-shell": true,
     "height": 0,
     "modules-center": ["clock"],//,"hyprland/window",],
-    "modules-left": ["mpris","wlr/workspaces", "wlr/mode"],
+    "modules-left": ["mpris","hyprland/workspaces", "wlr/mode"],
     "modules-right": ["tray", "cpu", "memory", "battery","backlight","pulseaudio", "custom/network_traffic","network","bluetooth", "custom/power"], 
     "hyprland/window": {
         "format": "{}"
     },
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",

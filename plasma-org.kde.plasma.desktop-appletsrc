@@ -1464,6 +1464,7 @@ ItemGeometries-0x0=
 ItemGeometries-1680x1050=
 ItemGeometries-1920x1080=
 ItemGeometries-1920x1200=
+ItemGeometries-2560x1440=
 ItemGeometries-2560x1600=
 ItemGeometriesHorizontal=
 activityId=f4bac82b-b1d0-4024-a397-d93a912d6dca
@@ -2079,7 +2080,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][378][Applets][388][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][378][Applets][388][Configuration][General]
 migrated=true
@@ -2093,7 +2094,7 @@ immutability=1
 plugin=gr.ictpro.jsalatas.plasma.pstate
 
 [Containments][378][Applets][390][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][378][Applets][390][Configuration][General]
 hasNativeBackend=true
@@ -2354,4 +2355,4 @@ AppletOrder=118;119;120;117;165;142;143;144;145;122;141;140
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Gunfire Reborn.desktop,0,f4bac82b-b1d0-4024-a397-d93a912d6dca
