@@ -104,7 +104,7 @@ return {
     top = 0,
     bottom = 0,
   },
-  window_background_opacity = 0.99,
+  window_background_opacity = 0.9,
   hide_tab_bar_if_only_one_tab = false,
   use_fancy_tab_bar = true,
   scrollback_lines = 999999,
@@ -117,5 +117,5 @@ return {
   default_cursor_style = 'BlinkingBar',
   cursor_blink_rate = 500,
   animation_fps = 60,
-  enable_wayland = true,
+  enable_wayland = false,
 }
