@@ -226,7 +226,7 @@ alias pacdiff='sudo -H DIFFPROG=meld pacdiff'
 alias please='sudo'
 alias tb='nc termbin.com 9999'
 alias upd="/usr/bin/update"
-
+alias brave-beta="brave-beta --enable-features=UseOzonePlatform --ozone-platform=wayland"
 # Replace yay with paru if installed
 [ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 

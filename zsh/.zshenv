@@ -31,6 +31,8 @@ export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
 # Cache
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export _JAVA_OPTIONS="-Djava.util.prefs.userRoot=${XDG_CONFIG_HOME}/java -Djavafx.cachedir=${XDG_CACHE_HOME}/openjfx"
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 # State
 export KERAS_HOME="${XDG_STATE_HOME}"/keras
 

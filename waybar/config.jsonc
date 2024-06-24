@@ -69,7 +69,7 @@
         "format-icons": {
             "default": ["\udb81\udd7e", "\udb81\udd7e", "\udb81\udd7e"]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol-qt"
     },
     "cpu": {
         "format": "\uf4bc {usage: >3}%",
