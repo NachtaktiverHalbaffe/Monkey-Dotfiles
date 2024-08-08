@@ -172,3 +172,4 @@ image/x-kodak-kdc=org.kde.gwenview.desktop
 image/x-tga=org.kde.gwenview.desktop
 image/tiff=org.kde.gwenview.desktop
 image/jpeg=org.kde.gwenview.desktop
+x-scheme-handler/ferdium=ferdium.desktop

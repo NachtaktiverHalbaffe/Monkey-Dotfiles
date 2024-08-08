@@ -78,3 +78,7 @@ profile=power-saver
 idleTime=300000
 suspendThenHibernate=false
 suspendType=1
+
+[Migration]
+MigratedActivitiesToPlasma6=powerdevilrc
+MigratedProfilesToPlasma6=powerdevilrc

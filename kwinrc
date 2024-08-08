@@ -58,9 +58,6 @@ WobblynessLevel=1
 [ElectricBorders]
 BottomRight=ShowDesktop
 
-[ModifierOnlyShortcuts]
-Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
-
 [NightColor]
 Active=true
 LatitudeAuto=48.767
@@ -162,16 +159,31 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][5ce5bbfe-000e-5be9-8820-581baffbef71]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][6fe42b61-5ffd-5e63-b846-4fbbfb9905cc]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][75fcf2b8-18f5-5342-882c-d749b2647000]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][7e90496f-519d-562c-881c-bece6070b3e8]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][8f5d5b26-ac53-598b-acff-0147ba564870]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][a3d991e5-e4d6-5b87-b0c7-d6949c612be9]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][a737ed42-f863-566c-852b-bb4d28acf781]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a7582bad-fa94-51a7-b2c7-b213f64caec7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a9e897d6-2810-52d0-a07c-f9b247017346]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][ba076d5b-1ea1-50f1-9f65-775c90161dff]
@@ -184,6 +196,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5069444444444444},{"height":0.4930555555555556}],"width":0.49374999999999997},{"width":0.5062500000000001}]}
 
 [Tiling][c9a7881f-38b6-50be-9945-ef60249d8079]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][cc81e062-b480-50bf-beee-2e0a3c407aab]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][d0d81e56-4460-50ed-9a54-b3e6d66521f9]
@@ -209,5 +224,4 @@ RollOverDesktops=false
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAIN
 ButtonsOnRight=
-library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Sweet-Mars

@@ -4,7 +4,7 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 [Keyboard]
 KeyRepeat=repeat
 NumLock=1
-RepeatDelay=600
+RepeatDelay=250
 RepeatRate=25
 
 [Libinput][1133][16449][Logitech MX Master]
@@ -21,7 +21,6 @@ PointerAcceleration=-0.200
 X11LibInputXAccelProfileFlat=true
 XLbInptAccelProfileFlat=true
 cursorSize=36
-cursorTheme=Vimix-cursors
 
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

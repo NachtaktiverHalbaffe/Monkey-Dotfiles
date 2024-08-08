@@ -133,7 +133,6 @@ LookAndFeelPackage=Dr460nized
 ShowDeleteCommand=true
 SingleClick=false
 contrast=4
-widgetStyle=kvantum-dark
 
 [KFileDialog Settings]
 Allow Expansion=false
