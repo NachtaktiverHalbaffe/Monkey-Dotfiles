@@ -20,7 +20,7 @@ It contains all the Linux Configurationfiles from `~/.config` which configures t
 # Desktop Environments/Window Manager
 There are two Desktop Environments/Window Managers installed:
 - KDE Plasma as a "stable" fallback environment
-- Hyprland as a fancy, bleeding Edge Compositor which can have some quirks and bugs => Currently Daily driven Environment 
+- Hyprland as a fancy, bleeding Edge Compositor => Currently Daily driven Environment 
 
 Both are installed alongside and SDDM is used as a Login-Manager fro mwhich the envrionment which should be used can be chosen
 
@@ -33,13 +33,20 @@ Its a fancy Wayland Compositor. For me its selling factors are the active develo
 Many Bits and Pieces which Plasma delivers out of the box needs replacements here:
 - [Waybar](https://github.com/Alexays/Waybar): The status bar at the top of the screens
 - [Anyrun](https://github.com/Kirottu/anyrun): Replacement for krunner
-- [Swaylock](https://github.com/swaywm/swaylock): Lockscreen
+- [Easyeffects](https://github.com/wwmm/easyeffects): Audio processor & effects (auto volume leveling etc)
+- **System Services**:
+  - ~~[Swaylock](https://github.com/swaywm/swaylock)~~ [Hyprlock](https://github.com/hyprwm/hyprlock/releases): Lockscreen 
+  - [Hypridle](https://github.com/hyprwm/hypridle): Idle deamon (mainly for lockscreen and dimming screen)
+  - [Hyprpaper](https://github.com/hyprwm/hyprpaper): For desktop background
+  - [SwayOSD](https://github.com/ErikReider/SwayOSD): For On-Screen-Display (little popup when changing volume etc.)
+  - [Udiskie](https://github.com/coldfix/udiskie): For automounting removeable media
+  - [Swaync](https://github.com/ErikReider/SwayNotificationCenter): Notification daemon
 - [WLogout](https://github.com/ArtsyMacaw/wlogout): Logout menu
-- [qt5c](https://github.com/desktop-app/qt5ct): Theming of Qt apps
+- [qt6c](https://github.com/desktop-app/qt6ct): Theming of Qt apps
 - nm-applet: A system tray for managing internet connections. Uses the KDe Plasma networking backend
 
 # License
-Copyright 2023 NachtaktiverHalbaffe
+Copyright 2024 NachtaktiverHalbaffe
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
