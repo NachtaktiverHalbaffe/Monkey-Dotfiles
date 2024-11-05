@@ -7,6 +7,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][377]
 ItemGeometries-1920x1200=
+ItemGeometries-2048x1152=
 ItemGeometries-2560x1440=
 ItemGeometries-2560x1600=
 ItemGeometriesHorizontal=
@@ -88,6 +89,10 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][378][Applets][384][Configuration]
+popupHeight=450
+popupWidth=810
+
 [Containments][378][Applets][384][Configuration][Appearance]
 autoFontAndSize=false
 customDateFormat=MMM d, yyyy |
@@ -108,7 +113,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][378][Applets][386][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 SystrayContainmentId=387
 
 [Containments][378][Applets][400]
@@ -118,7 +123,7 @@ plugin=org.kde.plasma.userswitcher
 [Containments][378][Applets][400][Configuration]
 PreloadWeight=90
 popupHeight=196
-popupWidth=192
+popupWidth=216
 
 [Containments][378][Applets][400][Configuration][General]
 showFace=true
@@ -135,8 +140,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=478
-popupWidth=478
+popupHeight=489
+popupWidth=489
 wallpaperplugin=org.kde.image
 
 [Containments][387][Applets][388]
@@ -220,7 +225,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][387][Applets][407][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][387][Applets][407][Configuration][General]
 currentDetailsTab=details

@@ -80,7 +80,7 @@
     },
     "memory": {
         "format": "\udb81\ude1a {: >3}%",
-        "on-click": "wezterm -e htop"
+        "on-click": "wezterm -e btop"
     },
     "custom/power": {
       	"format":"⏻",
