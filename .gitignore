@@ -25,6 +25,7 @@
 !ulauncher/
 !VeraCrypt/
 !wofi/
+!ghostty/
 
 # System apps configs
 !garuda/
