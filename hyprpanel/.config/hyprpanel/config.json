@@ -427,5 +427,6 @@
   "bar.customModules.ram.labelType": "percentage",
   "menus.media.noMediaText": "No Media playing",
   "menus.media.displayTime": false,
-  "menus.media.hideAuthor": false
+  "menus.media.hideAuthor": false,
+  "bar.clock.format": "%a %b %d  %H:%M:%S"
 }
