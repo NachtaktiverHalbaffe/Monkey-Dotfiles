@@ -52,6 +52,11 @@ Many Bits and Pieces which Plasma delivers out of the box needs replacements her
 - [qt6c](https://github.com/desktop-app/qt6ct): Theming of Qt apps
 - nm-applet: A system tray for managing internet connections. Uses the KDe Plasma networking backend
 
+## [GlazeWm](https://github.com/glzr-io/glazewm)
+Its a tiling window manager for windows. There are also some other options out there, but some of them did not allow a license for commercial use so I cant use it on my work laptop.
+
+It comes with everything out of the box because it just uses the Windows Desktop environment. You can optionally install zbar but I'm personally fine running the default windows task bar.
+
 # License
 Copyright 2025 NachtaktiverHalbaffe
 
