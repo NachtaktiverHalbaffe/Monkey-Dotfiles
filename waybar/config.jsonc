@@ -69,8 +69,8 @@
         "format-icons": {
             "default": ["\udb81\udd7e", "\udb81\udd7e", "\udb81\udd7e"]
         },
-        "on-click": "easyeffects",
-        "on-click-right": "pavucontrol"
+        "on-click": "pavucontrol",
+        "on-click-right": ""
     },
     "cpu": {
         "format": "\uf4bc {usage: >3}%",
