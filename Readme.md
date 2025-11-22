@@ -4,7 +4,9 @@ It contains all the Linux Configuration files from `~/.config` which configures 
 # Installation
 For dotfile management I use [stow](https://www.gnu.org/software/stow/) on Linux. This symlinks the configs from this repository to your configs in your home repository. For this purpose, clone this repository into your home directory. For symlinking, run `stow <folder name>` e.g. `stow hypr`. 
 
-<!-- For windows I use [Chezmoi](https://www.chezmoi.io/user-guide/frequently-asked-questions/usage/#how-do-i-edit-my-dotfiles-with-chezmoi). -->
+For windows I use [PSDotFile](https://github.com/ralish/PSDotFiles?tab=readme-ov-file#configuring). It works similiar to GNU Stow with symlinking. You configure the target locations with metadata profiles located under `metadata`. It mainly contains configs to ignore the Linux only configs and adjusts the the symlinking paths of the cross platform applications to the Windows one i.e. the folder structure of the cross platform apps adhere to the Stow structure. 
+
+You have to add some config to your Powershell profile (`$HOME\Documents\WindowsPowerShell\profile.ps1`) in order for PSDotFile to work. An example profile can be found under `docs/PsDotFiles`.
 
 # Core Apps
 - [Ghostty]([chezmoi](https://ghostty.org/)): A very capable terminal emulator written in Zig. The selling points for me is its robustness, the builtin multiplexing feature and cross platform support

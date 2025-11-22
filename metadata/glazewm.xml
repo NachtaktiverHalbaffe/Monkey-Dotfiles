@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Metadata.xsd">
+    <FriendlyName>Glaze Wm</FriendlyName>
+
+    <Detection>
+        <Method>Static</Method>
+        <Availability>AlwaysInstall</FindInPath>
+    </Detection>
+
+    <InstallPath>
+        <SpecialFolder>UserProfile</SpecialFolder>
+        <Destination>.glzr/glazewm</Destination>
+    </InstallPath>
+</Component>
