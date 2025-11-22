@@ -4,6 +4,6 @@
 
     <Detection>
         <Method>Static</Method>
-        <Availability>NeverInstall</FindInPath>
+        <Availability>NeverInstall</Availability>
     </Detection>
 </Component>
