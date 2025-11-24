@@ -156,7 +156,7 @@ window_rules:
   - commands: ["move --workspace 3"]
     match:
       # Move browsers to workspace 3.
-      - window_process: { regex: "msedge|brave|chrome|firefox|zen" }
+      - window_process: { regex: "brave|zen" }
   - commands: ["move --workspace 5"]
     match:
       # Move mail clients to workspace 5.
